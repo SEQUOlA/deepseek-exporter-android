@@ -1,0 +1,76 @@
+---
+
+# DeepSeek Chat Exporter (Android)
+
+Hi. This is the Android version of my exporter. Since mobile browsers don't support extensions, I created a bookmarklet. It's a special browser bookmark containing code that works right on the page without installing any apps.
+
+## Features
+- Exports the entire chat via API instantly.
+- Saves only your prompts and the AI s final answers.
+- Formats the text into Markdown.
+- Displays the exported text right on your screen so you can copy it to your notes.
+
+## Other Platforms
+- For Windows (Edge and Chrome): [deepseek-exporter](https://github.com/SEQUOlA/deepseek-exporter)
+- For Mac (Firefox): [deepseek-exporter-mac](https://github.com/SEQUOlA/deepseek-exporter-mac)
+
+## Installation and Usage
+You will need Firefox for Android.
+
+1. Open the bookmarklet.js file in this repository and copy the entire code.
+2. Open Firefox on your phone and go to any page (e.g., ya.ru).
+3. Tap the address bar and start typing any address to trigger the bookmark button, or open the menu (three dots) and select "Add to bookmarks".
+4. In the "Name" field, type DS Export.
+5. In the "URL" field, paste the copied code. Make sure it starts with javascript: (if the browser removes it, type it manually).
+6. Save the bookmark.
+7. Go to chat.deepseek.com, log in, and open the chat you want to export.
+8. Tap the address bar, type DS, and select your bookmark from the suggestions.
+9. A window with the entire chat text will appear. Long-press the text, select "Select all" and "Copy".
+
+## Support and Feedback
+If this tool saved you some time, you can buy me a coffee: 
+https://www.donationalerts.com/r/myatnoyemasl0
+
+If you found this code useful or just want to say thanks, I d be happy if you star this repository or follow my GitHub profile. It really motivates me to build new things. If you find this useful, please star this repository!<3
+
+## License
+MIT License.
+
+
+# DeepSeek Chat Exporter (Android)
+
+Привет. Это версия моего экспортера для телефонов на Android. Так как мобильные браузеры не поддерживают установку полноценных расширений, я сделала букмарклет. Это специальная закладка с кодом, которая работает прямо в браузере и не требует скачивания приложений.
+
+## Что оно умеет
+- Выгружает историю чата целиком через API, без долгого скроллинга вверх.
+- Сохраняет только ваши вопросы и финальные ответы нейросети, без скрытых размышлений модели.
+- Форматирует текст в Markdown с заголовками и блоками кода.
+- Показывает готовый текст прямо на экране, чтобы вы могли его скопировать в заметки или отправить себе.
+
+## Другие платформы
+Если вам нужна версия для другой системы, они лежат в отдельных репозиториях:
+- Для Windows (Edge и Chrome): репозиторий [deepseek-exporter](https://github.com/SEQUOlA/deepseek-exporter).
+- Для Mac (Firefox): репозиторий [deepseek-exporter-mac](https://github.com/SEQUOlA/deepseek-exporter-mac).
+
+## Как установить и пользоваться
+Вам понадобится браузер Firefox для Android (в нем удобнее всего создавать такие закладки).
+
+1. Откройте файл `bookmarklet.js` в этом репозитории и скопируйте весь код.
+2. Откройте Firefox на телефоне, зайдите на любую страницу (например, ya.ru).
+3. Тапните по адресной строке и начните вводить любой адрес, чтобы появилась кнопка добавления закладки. Или откройте меню (три точки) и выберите "Добавить в закладки".
+4. В поле "Имя" напишите DS Export.
+5. В поле "Адрес" (URL) вставьте скопированный код. Убедитесь, что он начинается со слова javascript: (если браузер его стер, впишите вручную).
+6. Сохраните закладку.
+7. Теперь зайдите на chat.deepseek.com, авторизуйтесь и откройте нужный чат.
+8. Тапните в адресную строку, начните вводить DS и выберите вашу закладку из подсказок.
+9. На экране появится окно с текстом всей переписки. Сделайте долгое нажатие на текст, выберите "Выделить всё" и "Копировать".
+
+## Поддержка и обратная связь
+Если расширение сэкономило вам время, можете угостить меня кофе: 
+https://www.donationalerts.com/r/myatnoyemasl0
+
+Если вам пригодился этот код или вы просто хотите сказать спасибо, буду рада, если вы поставите звезду этому репозиторию или подпишетесь на мой профиль на GitHub. Это очень мотивирует делать что-то новое.
+
+## Лицензия
+Проект распространяется под лицензией MIT. Можно свободно брать код, изменять его и использовать в своих проектах. Буду рада если поставите звездочку!
+
